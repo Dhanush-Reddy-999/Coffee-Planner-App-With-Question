@@ -1,0 +1,67 @@
+.top-image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/coffee-planner-bg.png');
+  background-size: cover;
+  height: 50vh;
+  font-family: 'Roboto';
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 18px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #0e8684;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  border-radius: 5px;
+  border-width: 0px;
+  height: 35px;
+  width: 140px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.result-container {
+  background-color: #1e293b;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.plan-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.plan-option {
+  color: #0e8684;
+}
+
+@media screen and (min-width: 768px) {
+  .top-image-container {
+    align-items: flex-end;
+  }
+  .text-container {
+    max-width: 500px;
+  }
+  .bottom-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .result-container {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
